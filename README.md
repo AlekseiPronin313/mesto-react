@@ -12,4 +12,4 @@
 6. Grid Layout
 7. React
 
-* [Ссылка на проект GitHub] (https://aleksey313.github.io/mesto-react/)
+* [Ссылка на проект GitHub](https://aleksey313.github.io/mesto-react/)
