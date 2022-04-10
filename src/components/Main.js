@@ -28,7 +28,7 @@ function Main(props) {
         <main className="content">
             <section className="profile">
                 <div className="profile__avatar-container">
-                    <img className="profile__avatar" src={userAvatar} alt="Аватарка" />
+                {userAvatar && (<img className="profile__avatar" src={userAvatar} alt="Аватарка" />)}
                     <button className="profile__button-avatar" type="button" onClick={props.onEditAvatar}></button>
                 </div>
                 <div className="profile__info">
@@ -41,9 +41,9 @@ function Main(props) {
             </section>
             <section className="elements">
                 <ul className="elements__list"> {
-                    cards.map((card, id) => (
+                    cards.map((card) => (
                         <Card
-                            key={id}
+                            key={card._id}
                             card={card}
                             link={card.link}
                             name={card.name}
