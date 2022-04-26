@@ -48,3 +48,4 @@ body {
 @import url(./blocks/element/likes/__like-counter/element__like-counter.css);
 @import url(./blocks/element/__delete/_hidden/element__delete_hidden.css);
 @import url(./blocks/profile/__button-avatar/profile__button-avatar.css);
+@import url(./blocks/element/__delete/_visible/element__delete_visible);
